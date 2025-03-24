@@ -1,6 +1,6 @@
 /* Custom Styles */
-.hero {
-  background-image: url("/images/femoree-SC7R-d27_9E-unsplash.jpg");
+.hero,
+.hero-2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,6 +10,14 @@
   justify-content: center;
   color: white;
   text-align: center;
+}
+
+.hero {
+  background-image: url("/images/femoree-SC7R-d27_9E-unsplash.jpg");
+}
+
+.hero-2 {
+  background-image: url("/images/shoe\ 3.jpg");
 }
 
 .hero h1 {
