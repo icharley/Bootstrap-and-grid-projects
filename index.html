@@ -1,0 +1,254 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fictional Restaurant</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="right"><a href="">Charley Cookery</a></div>
+      <div class="left">
+        <a href="">Home</a>
+      <a href="">menu</a>
+      <a href="">About us</a>
+      <a href="">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Meals that transcend time</h1>
+    <button>Order Now</button>
+  </section>
+
+  <section class="menu">
+    <div class="menu-item">
+      <img src="" alt="">
+      <strong>Food 1</strong>
+      <p>Description</p>
+      <p>Price</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="" alt="">
+      <strong>Food 1</strong>
+      <p>Description</p>
+      <p>Price</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="" alt="">
+      <strong>Food 1</strong>
+      <p>Description</p>
+      <p>Price</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="image">
+
+    </div>
+
+    <div class="paragraph">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptate quod, qui, cupiditate exercitationem, dicta libero rem animi nemo voluptates fuga necessitatibus provident ipsam! Corrupti hic accusamus officia. Quibusdam, tempore.</p>
+    </div>
+  </section>
+
+<section class="contact">
+  <div class="contact-section-image">
+
+  </div>
+
+<form action="">
+
+  <label for="Name">
+    Name
+    <Input type="text" name="name" placeholder="Kindly input your name"></Input>
+  </label>
+  <br>
+  <label for="Email">
+    Email
+    <Input type="email" placeholder="Input valid Email"></Input>
+  </label>
+  <br>
+
+  <label for="">
+    Message
+    <textarea name="message" id="" placeholder="Type your message here"></textarea>
+  </label>
+  <br>
+  <button>Send message</button>
+
+</form>
+</section>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Bites</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 1️⃣ Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Delicious Bites</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 2️⃣ Hero Section -->
+    <header class="hero">
+      <div class="container text-center">
+        <h1>Welcome to Delicious Bites</h1>
+        <p>Experience the finest dining experience</p>
+        <a href="#menu" class="btn btn-primary">View Menu</a>
+      </div>
+    </header>
+
+    <!-- 3️⃣ Menu Section -->
+    <section id="menu" class="container my-5">
+      <h2 class="text-center mb-4">Our Menu</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="menu-item card">
+            <img
+              src="/images/pounded yam and egusi on wood.webp"
+              class="card-img-top"
+              alt="Pounded yam"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Pounded yam</h5>
+              <p class="card-text">$10.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="menu-item card">
+            <img
+              src="/images/abula1-scaled.jpg"
+              class="card-img-top"
+              alt="Abula"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Abula</h5>
+              <p class="card-text">$12.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="menu-item card">
+            <img
+              src="/images/Nigerian-Jollof-04-scaled.jpg"
+              class="card-img-top"
+              alt="Jollof rice"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Jollof Rice</h5>
+              <p class="card-text">$9.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4️⃣ About Us Section -->
+    <section id="about" class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img
+            src="/images/nkwobi.webp"
+            class="img-fluid rounded"
+            alt="Restaurant"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>
+            At Delicious Bites, we offer the best African dishes experience with
+            our native recipes. Our cooks bring passion and creativity to the
+            table, ensuring every bite and swallow is a delightful journey.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5️⃣ Contact Section -->
+    <section id="contact" class="container my-5">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                rows="4"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6️⃣ Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>© 2025 Delicious Bites. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
